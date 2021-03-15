@@ -1,0 +1,127 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: chocolate;
+}
+.container a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    border-bottom: 1px solid transparent;
+}
+.container:hover{
+    border-bottom: 0px solid black;
+}
+.container a:hover{
+    color: black;
+}
+.txt{
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 20px;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    background-color: cadetblue;
+}
+.placeholder{
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.placeholder .hero {
+    border: 1px solid black;
+    height: 70%;
+    border-radius: 10px;
+    border-style: solid;
+    box-sizing: border-box;
+    width: 50%;
+    margin-top: 15px;
+    padding-bottom: 3vh;
+}
+.placeholder .hero img{
+    height: 106%;
+    width: 100%;
+}
+.placeholder .main {
+    width: 50%;
+    font-size: 2rem;
+    text-align: left;
+}
+.placeholder .main h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.placeholder .main p{
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.section{
+    width: 80%;
+    margin: 0px auto 10vh auto;
+    padding-bottom: 5vh;
+    padding: 2em 2em;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:678px){
+    .main{
+        margin-top: 20vh;
+    }
+    .placeholder{
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+    .placeholder .hero{
+        width: 100%;
+    }
+    .placeholder .main{
+        width: 100%;
+    }
+    .section{
+        margin-top: 20vh;
+    }
+}
+.cause{
+    align-items: center;
+    margin: 10px auto;
+}
+.cause .cause1 h1{
+    margin: 0pc;
+}
+.cause .cause1 p{
+    margin: 5vh;
+    font-size: 1.3rem;
+}
+img.mining{
+    width: 70%;
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
